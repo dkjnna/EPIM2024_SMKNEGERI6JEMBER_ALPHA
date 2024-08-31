@@ -1,9 +1,9 @@
-<div style="display: flex; margin: 40px; flex-direction: row; font-family: 'League'; padding-top: 60px; align-items: center; justify-content: center;" id="ticket">
+<div class="ticket" id="ticket" style="display: flex; flex-wrap: wrap; ">
     <div style="width: 50%; overflow-y: auto">
         <div>
             <h3>Gold vip</h3>
             <img src="assets/images/vip.png" style="width: 95%;" alt="">
-            <div style="display: flex; padding: 20px; width: 90%; border-radius: 10px; border: 3px orange solid; flex-direction: column;">
+            <div class="bawah" style="display: flex; padding: 20px; width: 90%; border-radius: 10px; border: 3px orange solid; flex-direction: column;">
                 <div style="display: flex; flex-direction: column; justify-content: space-between;">
                     <div style="display: flex; height: 40px; justify-content: space-between; align-items: center;">
                         <h3>Description</h3>
