@@ -1,5 +1,5 @@
 <div class="footer">
-    <div class="footer-atas" style="gap: 170px;">
+    <div class="footer-atas">
         <img src="assets/images/logo.png" alt="" class="logo" style="width: 300px;">
         <ul>
             <h4>Navigation</h4>

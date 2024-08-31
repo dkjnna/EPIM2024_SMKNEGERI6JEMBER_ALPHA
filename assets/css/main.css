@@ -109,6 +109,8 @@ html{
 .foto-home .foto-bruno{
     height: 400%;
     width: 50%;
+    margin-top: 500px;
+    margin-left: 200px;
 }
 
 .content-home{
@@ -157,6 +159,7 @@ html{
     letter-spacing: 0.6rem;
     width: 300px;
 }
+
 
 /* SUBHOME */
 
@@ -388,6 +391,7 @@ html{
 .footer .footer-atas{
     display: flex;
     border-bottom: white 1px solid;
+    gap: 170px;
 }
 
 .footer .footer-atas ul{
@@ -403,3 +407,479 @@ html{
     gap: 770px;
     color: white;
 }
+
+.ticket{
+    display: flex; margin: 40px; flex-direction: row; font-family: 'League'; padding-top: 60px; align-items: center; justify-content: center;
+}
+
+
+
+@media (max-width: 1440px) {
+    .about .content-about .desc h1{
+        font-weight: 800;
+        /* letter-spacing: 0.1rem; */
+        border-bottom: rgb(255, 102, 0) 2px solid;
+        width: 290px;
+    }
+    .about .content-about .desc h2{
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 0.0;
+    }
+    .about .content-about .desc p{
+        width: 850px;
+        font-size: 18px;
+    }
+
+    .about .content-about .desc .more div p{
+        width: 250px;
+    }
+
+    .ul-item{
+        display: flex;
+        gap: 120px;
+    }
+}
+@media (max-width: 1024px) {
+    .ul-item li a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Lusitana';
+        font-size: 14px;
+    }
+    .ul-item{
+        display: flex;
+        gap: 90px;
+    }
+    .foto-home{
+        width: 50%;
+        display: none;
+    }
+    .content-home{
+        width: 80%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .content-about .desc h1{
+        font-weight: 800;
+        /* letter-spacing: 0.1rem; */
+        border-bottom: rgb(255, 102, 0) 2px solid;
+        width: 290px;
+    }
+    .about .content-about .desc h2{
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 0.0;
+    }
+    .about .foto-about{
+        width: 300px;
+    }
+    .about .content-about .desc p{
+        width: 450px;
+        font-size: 16px;
+    }
+
+    .about .content-about .desc .more{
+        display: flex;
+        width: 550px;
+        gap: 20px;
+    }
+
+    .about .content-about .desc .more div p{
+        width: 150px;
+    }
+
+    .about .content-about .futher .btn button{
+        padding: 10px 40px;
+        margin: 0 10px;
+        border: 0;
+        background-color: purple;
+        color: white;
+    }
+
+    .ul-item{
+        display: flex;
+        gap: 120px;
+    }
+
+    .gallery div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: column; */
+        height: auto;
+        background-color: #250043;
+        font-family: 'Lusitana';
+    }
+
+    .footer .footer-atas{
+        display: flex;
+        border-bottom: white 1px solid;
+        gap: 60px;
+    }
+
+    .footer .footer-atas ul{
+        list-style: none;
+        color: white;
+        font-size: 14px;
+    }
+    .footer .footer-bawah{
+        gap: 370px;
+    }
+}
+
+@media (max-width:768px) {
+    .ul-item li a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Lusitana';
+        font-size: 14px;
+        display: none;
+    }
+    .ul-item{
+        display: flex;
+        /* gap: 50px; */  
+        display: none;  
+    }
+    .menu-icon{
+        font-size: 30px;
+        color: white;
+        display: none;
+    }
+    .foto-home{
+        width: 50%;
+        display: none;
+    }
+    .content-home{
+        width: 80%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .content-about .desc h1{
+        font-weight: 800;
+        /* letter-spacing: 0.1rem; */
+        border-bottom: rgb(255, 102, 0) 2px solid;
+        width: 290px;
+    }
+    .about .content-about .desc h2{
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 0.0;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        gap: 70px;
+        font-family: 'League';
+    }
+    .about .foto-about{
+        width: 300px;
+    }
+    .about .content-about .desc p{
+        width: 450px;
+        font-size: 16px;
+    }
+
+    .about .content-about .desc .more{
+        display: flex;
+        width: 550px;
+        gap: 20px;
+    }
+
+    .about .content-about .desc .more div p{
+        width: 150px;
+    }
+
+    .about .content-about .futher .btn button{
+        padding: 10px 40px;
+        margin: 0 10px;
+        border: 0;
+        background-color: purple;
+        color: white;
+    }
+
+    .ul-item{
+        display: flex;
+        /* gap: 10px; */
+    }
+
+    .gallery div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: column; */
+        height: auto;
+        background-color: #250043;
+        font-family: 'Lusitana';
+    }
+
+    .footer .footer-atas{
+        display: flex;
+        border-bottom: white 1px solid;
+        gap: 20px;
+    }
+
+    .footer .footer-atas ul{
+        list-style: none;
+        color: white;
+        font-size: 14px;
+    }
+    .footer .footer-bawah{
+        gap: 170px;
+    }
+    .ticket{
+        display: flex;
+        flex-direction: column;
+    }
+    .subhome{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 30px 80px;
+        font-family: 'Montserrat';
+        gap: 170px;
+    }
+    .subhome .content1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+    }
+    .subhome .content1 .album{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 300px;
+    }
+    .subhome .content2{
+        width: 100%;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .subhome .content2 .foto-bruno{
+        width: 350px;
+        height: 250px;
+        object-fit: cover;
+        box-shadow: #d0d0d0 20px -30px;
+        border-radius: 3%;
+    }
+}
+
+@media (max-width:425px) {
+    .ul-item li a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Lusitana';
+        font-size: 14px;
+    }
+    .content-home .subtitle{
+        font-family: 'League';
+        color: yellow;
+        font-size: 25px;
+        font-weight: 800;
+        letter-spacing: 1rem;
+    }
+    .content-home .title{
+        font-family: 'Karantina';
+        color: white;
+        font-size: 4rem;
+        letter-spacing: 0.0rem;
+        line-height: 0.0;
+    }
+    .content-home .location{
+        font-family: 'Montserrat';
+        font-size: 18px;
+        color: yellow;
+        letter-spacing: 0.3rem;
+        border-bottom: yellow 1px solid;
+    }
+    .content-home .informasi{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-home .informasi p{
+        font-family: 'Montserrat';
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.6rem;
+        width: 300px;
+    }
+    .ul-item{
+        display: flex;
+        gap: 90px;
+    }
+    .foto-home{
+        width: 50%;
+        display: none;
+    }
+    .content-home{
+        width: 80%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .content-about .desc h1{
+        font-weight: 800;
+        /* letter-spacing: 0.1rem; */
+        border-bottom: rgb(255, 102, 0) 2px solid;
+        width: 290px;
+    }
+    .subhome .content1 .deskripsi div h1{
+        font-weight: 900;
+        color: purple;
+        font-size: 30px;
+    }
+    .about .content-about .desc h2{
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 0.0;
+    }
+    .about .foto-about{
+        width: 200px;
+    }
+    .about{
+        width: 100%;
+    }
+    .subhome .content1 .deskripsi .button{
+        padding: 5px 15px;
+        background-color: rgb(240, 177, 60);
+        margin-top: 10px;
+        border-radius: 5px;
+        float: right ;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    .subhome .content1 .deskripsi div p{
+        font-size: 10px;
+        padding-top: -40px;
+    }
+    .subhome .content1 .album .foto-album .satu{
+        width: 100px;
+        /* margin-right: 20px; */
+    }
+    .subhome .content1 .album .foto-album .dua{
+        width: 100px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .subhome .content1 .album .foto-album .tiga{
+        width: 100px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .subhome .content1 .album .foto-album .empat{
+        width: 130px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .subhome .content1 .album .judul-album{
+        display: flex;
+        flex-direction: column;
+        font-family: 'League';
+        text-align: center;
+        font-size: 30px;
+        line-height: 1.5;
+        font-weight: 900;
+        color: rgb(255, 145, 0);
+    }
+    .about.content-about{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .about .content-about .desc p{
+        width: 50px;
+        font-size: 16px;
+    }
+
+    .about .content-about .desc .more{
+        display: flex;
+        width: 550px;
+        gap: 20px;
+    }
+
+    .subhome .content1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+    }
+
+    .about .content-about .desc .more div p{
+        width: 150px;
+    }
+
+    .about .content-about .futher .btn button{
+        padding: 10px 40px;
+        margin: 0 10px;
+        border: 0;
+        background-color: purple;
+        color: white;
+    }
+
+    .ul-item{
+        display: flex;
+        gap: 120px;
+    }
+
+    .gallery div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: column; */
+        height: auto;
+        background-color: #250043;
+        font-family: 'Lusitana';
+    }
+
+    .footer .footer-atas{
+        display: flex;
+        border-bottom: white 1px solid;
+        gap: 60px;
+    }
+
+    .footer .footer-atas ul{
+        list-style: none;
+        color: white;
+        font-size: 14px;
+    }
+    .footer .footer-bawah{
+        gap: 370px;
+    }
+}
+

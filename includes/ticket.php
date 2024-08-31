@@ -1,4 +1,4 @@
-<div style="display: flex; margin: 40px; flex-direction: row; font-family: 'League'; padding-top: 60px; align-items: center; justify-content: center;" id="ticket">
+<div class="ticket" id="ticket" style="display: flex; flex-wrap: wrap; ">
     <div style="width: 50%; overflow-y: auto">
 
         <?php $ticket = mysqli_query($koneksi, "SELECT * FROM ticket");
@@ -12,6 +12,7 @@
 
         while ($row = mysqli_fetch_array($ticket)) {
         ?>
+
             <div>
                 <h3><?= $row['jenis'] ?></h3>
                 <img src="assets/images/vip.png" style="width: 95%;" alt="">
@@ -22,6 +23,7 @@
                             <h1>></h1>
                         </div>
                         <p style="margin: 0; padding: 0;"><?= $row['deskripsi'] ?></p>
+
                     </div>
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <div>

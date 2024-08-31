@@ -1,5 +1,5 @@
 <nav class="nav">
-    <div class="menu-icon"></div>
+    <div class="menu-icon">&map;</div>
     <img src="assets/images/logo.png" alt="" class="logo">
     <ul class="ul-item">
         <li><a href="#">Home</a></li>

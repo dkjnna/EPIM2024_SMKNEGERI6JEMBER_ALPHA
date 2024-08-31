@@ -42,7 +42,7 @@
                             experience the magic of live music like never before. 
                             This is a concert event you won’t want to miss!</P>
                     </div>
-                    <a href="" class="button">Get Ticket</a>
+                    <a href="#ticket" class="button">Get Ticket</a>
                 </div>
 
                 <div class="album">
