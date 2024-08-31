@@ -1,7 +1,13 @@
 <div class="ticket" id="ticket" style="display: flex; flex-wrap: wrap; ">
     <div style="width: 50%; overflow-y: auto">
+        <?php $ticket = mysqli_query($koneksi, "SELECT * FROM ticket");
+
+
+        while($row = mysqli_fetch_array($ticket)){
+        ?>
+        
         <div>
-            <h3>Gold vip</h3>
+            <h3><?= $row['jenis'] ?></h3>
             <img src="assets/images/vip.png" style="width: 95%;" alt="">
             <div class="bawah" style="display: flex; padding: 20px; width: 90%; border-radius: 10px; border: 3px orange solid; flex-direction: column;">
                 <div style="display: flex; flex-direction: column; justify-content: space-between;">
@@ -9,12 +15,12 @@
                         <h3>Description</h3>
                         <h1>></h1>
                     </div>
-                    <p style="margin: 0; padding: 0;">Experience the concert from an exclusive area with the best views and premium amenities. Enjoy unparalleled comfort and luxury as you immerse yourself in the event from our Gold VIP section, designed for those who desire an extraordinary concert experience.</p>
+                    <p style="margin: 0; padding: 0;"><?= $row['deskripsi'] ?></p>
                 </div>
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                     <div>
                     <p>Price</p>
-                    <h3>IDR 70000</h3>
+                    <h3>IDR <?= $row['harga'] ?></h3>
                     </div>
                     <div style="display: flex; gap: 30px; align-items: center;">
                         <h3>0</h3>
@@ -31,6 +37,7 @@
 
             </div>
         </div>
+       <?php } ?>
     </div>
     <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
         <h2 style="margin-bottom: 2px orange solid;">TICKET AND MERCHANDISE</h2>

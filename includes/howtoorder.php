@@ -12,6 +12,7 @@
             <br>Rescheduling: Tickets remain valid for new dates. Refunds can be requested within 7 days if you can't attend the rescheduled event.
             <br>Additional Terms: We’re not responsible for lost or damaged tickets post-delivery. Tickets cannot be resold without permission.
             </p>
+
         </div>
     </div>
 </div>
