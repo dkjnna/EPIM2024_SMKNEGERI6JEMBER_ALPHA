@@ -356,7 +356,7 @@ html{
     color: white;
 }
 .modal{
-    position: absolute;
+    position: fixed;
     display: none;
     background-color: rgb(0, 0, 0, 0.5);
     top: 0;
