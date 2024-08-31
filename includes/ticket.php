@@ -32,7 +32,7 @@
                     <p>Total</p>
                     <h3>IDR 70000</h3>
                     </div>
-                    <button onclick="openmodal('howtoorder',true)" style="width: 150px; height: 40px; font-weight: 400; color: #fff; font-size: 20px; background-color: #250043; border-radius: 10px;">Buy Now</button>
+                    <button onclick="openmodal('purchase',true)" style="width: 150px; height: 40px; font-weight: 400; color: #fff; font-size: 20px; background-color: #250043; border-radius: 10px;">Buy Now</button>
                 </div>
 
             </div>
@@ -64,6 +64,6 @@
                 <p style="width: 100px;">1 button pack for purchasing 1 ticket for Festival A area</p>
             </div>
         </div>
-        <button style="width: 150px; height: 40px; font-weight: 400; color: #fff; font-size: 20px; background-color: #250043; border-radius: 10px;">SEE MORE</button>
+        <button style="width: 150px; height: 40px; font-weight: 400; color: #fff; font-size: 20px; background-color: #250043; border-radius: 10px;" onclick="openmodal('seemore',true)">SEE MORE</button>
     </div>
 </div>
