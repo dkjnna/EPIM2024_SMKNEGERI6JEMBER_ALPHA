@@ -150,12 +150,13 @@ if(  $id_ticket  == $row['id']){
                                     <span style="font-weight: 600;">IDR  <?php 
                                     $total = $qty*$row['harga'];
                                     echo $total; ?></span>
-                                    <input type="hidden" name="id" value=" <?= $total ?>">
+                                    <input type="hidden" name="total" value=" <?= $total ?>">
+                                    <input type="hidden" name="qty" value=" <?= $qty ?>">
                                 </p>
                             </div>
                             <p style="color: blueviolet;">Confirmation of approval of concert regulations</p>
                             <input type="checkbox">I agree with the terms
-                            <!-- <button style="width: 100px; margin-top: 10px; display: block; height: 40px; font-weight: 00; color: #000; font-size: 20px; background-color: #D1AB34; border-radius: 20px; border: none;"><a href="payment.php">Submit</a></button> -->
+                            <button style="width: 100px; margin-top: 10px; display: block; height: 40px; font-weight: 00; color: #000; font-size: 20px; background-color: #D1AB34; border-radius: 20px; border: none;"><a href="payment.php">Submit</a></button>
                             <button type="submit" style="width: 100px; margin-top: 10px; display: block; height: 40px; font-weight: 00; color: #000; font-size: 20px; background-color: #D1AB34; border-radius: 20px; border: none;">Submit</button>
                         </div>
                     </form>

@@ -35,7 +35,7 @@
                         8. Save the receipt. <br>
                     </p>
                     <button style="width: 230px; height: 50px; font-weight: 600; color: #000; font-size: 20px; background-color:transparent;   border: 2px #FCCD00 solid;border-radius: 20px;">
-                        Confirm Payment
+                        <a href="getticket.php" style="text-decoration: none; color: #000;">Confirm Payment</a>
                     </button>
                 </div>
             </div>
