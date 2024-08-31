@@ -1,7 +1,7 @@
 <!-- JANGAN LUPA DI IMPORT D INDEX -->
 <div class="modal" id="howtoorder">
     <div class="modal-content" style="width: 1000px; height: 600px; background-color: #fff; ">
-        <span onclick="openmodal('howtoorder',false)" style="cursor: pointer;">&times;</span>
+        <span onclick="openmodal('howtoorder',false)" style="cursor: pointer; font-size: 50px; font-weight: 600; top: 12px; left: 20px; position: relative;">x</span>
         <div style="padding: 30px; display: flex;">
             <div style="width: 50%; display: flex; flex-direction: column ; gap: 10px; overflow-x: auto; height: 500px;">
                 <h3>Personal Information</h3>
