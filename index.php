@@ -89,6 +89,8 @@
         <?php include('includes/galery.php') ?>
 
         <?php include('includes/footer.php') ?> 
+        <?php include('includes/purchase.php') ?> 
+        <?php include('includes/seemore.php') ?> 
 
 
     </div>
