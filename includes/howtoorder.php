@@ -1,5 +1,5 @@
 <!-- JANGAN LUPA DI IMPORT D INDEX -->
-<div class="modal" style="display: flex;" id="howtoorder">
+<div class="modal" id="howtoorder">
     <div class="modal-content" style="width: 1000px; height: 600px; background-color: #fff; ">
         <span onclick="openmodal('howtoorder',false)" style="cursor: pointer;">&times;</span>
         <div style="padding: 30px; display: flex;">

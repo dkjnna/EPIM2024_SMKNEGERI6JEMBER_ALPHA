@@ -1,4 +1,4 @@
-<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="display: flex; flex-direction: column; align-items: center;" id="gallery">
     <h1>Galery Bruno mars</h1>
     <div >
         <video style="margin: 20px;" controls>

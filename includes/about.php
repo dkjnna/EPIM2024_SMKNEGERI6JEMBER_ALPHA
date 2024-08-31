@@ -1,4 +1,4 @@
-<div class="" id="about">
+<div class="" id="about" style="padding-top: 50px;">
     <div class="about">
         <img src="assets/images/image.png" alt="" class="foto-about">
         <div class="content-about">
@@ -33,5 +33,13 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
+
+<!-- JANGAN LUPA DI IMPORT D INDEX -->
+<div class="modal" id="terms">
+    <div class="modal-content" style="width: 1000px; height: 600px; background-color: #fff; ">
+        <span onclick="openmodal('howtoorder',false)" style="cursor: pointer;">&times;</span>
+        
     </div>
 </div>

@@ -1,4 +1,4 @@
-<div style="display: flex; margin: 40px; flex-direction: row;">
+<div style="display: flex; margin: 40px; flex-direction: row; font-family: 'League'; padding-top: 60px; align-items: center; justify-content: center;" id="ticket">
     <div style="width: 50%; overflow-y: auto">
         <div>
             <h3>Gold vip</h3>
@@ -26,16 +26,16 @@
                     <p>Total</p>
                     <h3>IDR 70000</h3>
                     </div>
-                    <button data-modal="howtoorder" onclick="openmodal('howtoorder',true)" style="width: 150px; height: 40px; font-weight: 400; color: #fff; font-size: 20px; background-color: #250043; border-radius: 10px;">Buy Now</button>
+                    <button onclick="openmodal('howtoorder',true)" style="width: 150px; height: 40px; font-weight: 400; color: #fff; font-size: 20px; background-color: #250043; border-radius: 10px;">Buy Now</button>
                 </div>
 
             </div>
         </div>
     </div>
-    <div style="display: flex; flex-direction: column; align-items: center;">
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
         <h2 style="margin-bottom: 2px orange solid;">TICKET AND MERCHANDISE</h2>
         <p>If you want to buy tickets and don't know how to buy them, please click the button below</p>
-        <button style="width: 150px; float: left; height: 40px; font-weight: 400; color: #fff; font-size: 20px; background-color: #250043; border-radius: 10px;">How to Order</button>
+        <button data-modal="#howtoorder" onclick="openmodal('howtoorder',true)" style="width: 150px; float: left; height: 40px; font-weight: 400; color: #fff; font-size: 20px; background-color: #250043; border-radius: 10px;">How to Order</button>
         <p>Some of the benefits you get if you buy a number of tickets are:</p>
         <div >
             <div style="display: flex; flex-direction: row; justify-content: space-around; margin: 20px 10px; gap: 20px ; ">

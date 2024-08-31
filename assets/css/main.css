@@ -75,7 +75,7 @@ html{
 .ul-item li a{
     text-decoration: none;
     color: white;
-    font-family: 'League';
+    font-family: 'Lusitana';
     font-size: 18px;
 }
 
@@ -356,7 +356,7 @@ html{
     color: white;
 }
 .modal{
-    position: absolute;
+    position: fixed;
     display: none;
     background-color: rgb(0, 0, 0, 0.5);
     top: 0;
@@ -370,4 +370,36 @@ html{
 {
     z-index: 10;
     position: absolute;
+}
+
+/* FOOTER */
+
+.footer{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    background-color: #250043;
+    font-family: 'Lusitana';
+}
+
+.footer .footer-atas{
+    display: flex;
+    border-bottom: white 1px solid;
+}
+
+.footer .footer-atas ul{
+    list-style: none;
+    color: white;
+    font-size: 18px;
+}
+
+.footer .footer-bawah{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 770px;
+    color: white;
 }
