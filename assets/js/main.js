@@ -10,7 +10,6 @@ function openmodal(modalId, show){
     }
 }
 
-
 document.querySelectorAll('.modal-btn').forEach(button => {
     const modalId = button.getAttribute('data-modal') 
 
