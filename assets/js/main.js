@@ -1,5 +1,6 @@
 function openmodal(modalId, show){
     const modal = document.getElementById(modalId)
+    
     if(show == true){
         modal.style.display = 'flex'
         console.log(modal)
